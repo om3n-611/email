@@ -1,1 +1,1 @@
-web: python email_reader_v1.0.ipynb runserver 0.0.0.0:5000
+web: voila --port=$PORT --no-browser email_reader_v1.0.ipynb
